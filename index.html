@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Liqoy — Créateur de contenu, développeur & tech</title>
+    <meta name="description" content="Liqoy. Créateur de contenu, développeur et passionné de tech. YouTube, Discord, Spotify, GitHub, Ko-fi et contact." />
+    <meta name="theme-color" content="#141414" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f0f0f0" media="(prefers-color-scheme: light)" />
+    <link rel="canonical" href="https://liqoy.github.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Liqoy" />
+    <meta property="og:description" content="Créateur de contenu, développeur et passionné de tech. Retrouve ici tous mes réseaux et projets." />
+    <meta property="og:url" content="https://liqoy.github.io/" />
+    <meta property="og:image" content="https://liqoy.github.io/pfpliqoy.png" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Liqoy" />
+    <meta name="twitter:description" content="Créateur de contenu, développeur et passionné de tech." />
+    <link rel="icon" href="rounded-image.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="pfpliqoy.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" as="style" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Person","name":"Liqoy","url":"https://liqoy.github.io/","image":"https://liqoy.github.io/pfpliqoy.png","sameAs":["https://www.youtube.com/@Liqoy","https://discord.gg/UqcWfDUxuD","https://github.com/liqoy","https://ko-fi.com/liqoy"],"email":"liqoymc@gmail.com","description":"Créateur de contenu, développeur et passionné de tech."}
+    </script>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Aller au contenu</a>
+    <header class="site-header">
+      <a href="#" class="header-logo" draggable="false">Liqoy</a>
+      <div class="header-controls">
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button class="lang-btn" id="lang-en" type="button">EN</button>
+          <button class="lang-btn" id="lang-fr" type="button">FR</button>
+        </div>
+        <button class="theme-btn" id="theme-toggle" type="button" aria-label="Theme">
+          <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="4" fill="currentColor" />
+            <path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.22 4.22l1.77 1.77M18.01 18.01l1.77 1.77M19.78 4.22l-1.77 1.77M5.99 18.01l-1.77 1.77" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none" />
+          </svg>
+          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main id="main-content" class="main-content">
+      <section class="hero">
+        <img id="pfp" class="pfp" alt="Profile picture" src="pfpliqoy.png" width="112" height="112" decoding="async" loading="eager" fetchpriority="high" draggable="false" />
+        <h1 class="title" id="name"></h1>
+        <p class="subtitle" id="bio"></p>
+        <div class="link-cards">
+          <a class="feature-card feature-card--lavender feature-card--youtube" id="link-latest" href="#" draggable="false" data-href="">
+            <span class="feature-card__bg-logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></span>
+            <span class="feature-card__tag" id="link-latest-tag">YouTube</span>
+            <span class="feature-card__title" id="link-latest-label">Dernière vidéo</span>
+            <span class="feature-card__cta" aria-hidden="true"><span class="feature-card__cta-hover" id="link-latest-cta-hover"></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </a>
+          <a class="feature-card feature-card--purple feature-card--discord" id="link-discord" href="#" draggable="false" data-href="">
+            <span class="feature-card__bg-logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.445.865-.608 1.25-1.845-.276-3.68-.276-5.487 0-.164-.393-.406-.874-.618-1.25a.077.077 0 0 0-.078-.037 19.74 19.74 0 0 0-4.885 1.515.07.07 0 0 0-.032.028C.533 9.046-.319 13.58.099 18.058a.082.082 0 0 0 .031.056c2.053 1.508 4.041 2.423 5.993 3.03a.078.078 0 0 0 .084-.028c.462-.63.873-1.295 1.226-1.994a.076.076 0 0 0-.042-.106c-.653-.248-1.274-.55-1.872-.892a.077.077 0 0 1-.008-.128c.126-.094.252-.192.372-.291a.074.074 0 0 1 .078-.011c3.928 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .079.01c.12.099.246.198.373.292a.077.077 0 0 1-.007.128 12.3 12.3 0 0 1-1.873.891.077.077 0 0 0-.041.107c.36.698.772 1.363 1.225 1.993a.076.076 0 0 0 .084.029c1.961-.607 3.95-1.522 6.002-3.029a.077.077 0 0 0 .031-.055c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.029zM8.02 15.331c-1.183 0-2.157-1.086-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.211 0 2.176 1.095 2.157 2.419 0 1.333-.955 2.419-2.157 2.419zm7.975 0c-1.183 0-2.157-1.086-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.211 0 2.176 1.095 2.157 2.419 0 1.333-.946 2.419-2.157 2.419z"/></svg></span>
+            <span class="feature-card__tag" id="link-discord-tag">Communauté</span>
+            <span class="feature-card__title" id="link-discord-label">Discord</span>
+            <span class="feature-card__cta feature-card__cta--btn" id="link-discord-cta">Rejoindre</span>
+          </a>
+          <a class="feature-card feature-card--green feature-card--spotify" id="link-spotify" href="#" draggable="false" data-href="">
+            <span class="feature-card__bg-logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg></span>
+            <span class="feature-card__tag" id="link-spotify-tag">Musique</span>
+            <span class="feature-card__title" id="link-spotify-label">Spotify</span>
+            <span class="feature-card__cta" aria-hidden="true"><span class="feature-card__cta-hover" id="link-spotify-cta-hover"></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </a>
+          <a class="feature-card feature-card--lavender feature-card--email" id="link-email" href="#" draggable="false" data-href="contact.html" data-same="1">
+            <span class="feature-card__bg-logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg></span>
+            <span class="feature-card__tag" id="link-email-tag">Contact</span>
+            <span class="feature-card__title" id="link-email-label">Me contacter</span>
+            <span class="feature-card__cta" aria-hidden="true"><span class="feature-card__cta-hover" id="link-email-cta-hover"></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </a>
+          <a class="feature-card feature-card--purple feature-card--support" id="link-support" href="#" draggable="false" data-href="">
+            <span class="feature-card__bg-logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></span>
+            <span class="feature-card__tag" id="link-support-tag">Soutien</span>
+            <span class="feature-card__title" id="link-support-label">Ko-fi</span>
+            <span class="feature-card__cta" aria-hidden="true"><span class="feature-card__cta-hover" id="link-support-cta-hover"></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </a>
+          <a class="feature-card feature-card--dark feature-card--github" id="link-github" href="#" draggable="false" data-href="">
+            <span class="feature-card__bg-logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></span>
+            <span class="feature-card__tag" id="link-github-tag">Code</span>
+            <span class="feature-card__title" id="link-github-label">GitHub</span>
+            <span class="feature-card__cta" aria-hidden="true"><span class="feature-card__cta-hover" id="link-github-cta-hover"></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </a>
+          <a class="feature-card feature-card--blue feature-card--x link-disabled" id="link-twitter" href="javascript:void(0)" draggable="false" tabindex="-1" aria-disabled="true">
+            <span class="feature-card__bg-logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span>
+            <span class="feature-card__tag" id="link-twitter-tag">Social</span>
+            <span class="feature-card__title" id="link-twitter-label">X (Twitter)</span>
+            <span class="feature-card__cta feature-card__cta--disabled" aria-hidden="true"><span class="feature-card__cta-hover" id="link-twitter-cta-hover">Pas de compte</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </a>
+          <a class="feature-card feature-card--orange feature-card--instagram link-disabled" id="link-instagram" href="javascript:void(0)" draggable="false" tabindex="-1" aria-disabled="true">
+            <span class="feature-card__bg-logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1112.324 0 6.162 6.162 0 01-12.324 0zM12 16a4 4 0 110-8 4 4 0 010 8zm4.965-10.405a1.44 1.44 0 112.881.001 1.44 1.44 0 01-2.881-.001z"/></svg></span>
+            <span class="feature-card__tag" id="link-instagram-tag">Photos</span>
+            <span class="feature-card__title" id="link-instagram-label">Instagram</span>
+            <span class="feature-card__cta feature-card__cta--disabled" aria-hidden="true"><span class="feature-card__cta-hover" id="link-instagram-cta-hover">Pas de compte</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p class="footer-brand">Liqoy</p>
+        <p class="footer-tagline" id="footer-tagline">Créateur de contenu, dev & tech</p>
+        <nav class="footer-social" aria-label="Réseaux sociaux">
+          <a href="#" class="footer-social-link" data-href="https://www.youtube.com/@Liqoy" aria-label="YouTube" draggable="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+          <a href="#" class="footer-social-link" data-href="https://discord.gg/UqcWfDUxuD" aria-label="Discord" draggable="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.445.865-.608 1.25-1.845-.276-3.68-.276-5.487 0-.164-.393-.406-.874-.618-1.25a.077.077 0 0 0-.078-.037 19.74 19.74 0 0 0-4.885 1.515.07.07 0 0 0-.032.028C.533 9.046-.319 13.58.099 18.058a.082.082 0 0 0 .031.056c2.053 1.508 4.041 2.423 5.993 3.03a.078.078 0 0 0 .084-.028c.462-.63.873-1.295 1.226-1.994a.076.076 0 0 0-.042-.106c-.653-.248-1.274-.55-1.872-.892a.077.077 0 0 1-.008-.128c.126-.094.252-.192.372-.291a.074.074 0 0 1 .078-.011c3.928 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .079.01c.12.099.246.198.373.292a.077.077 0 0 1-.007.128 12.3 12.3 0 0 1-1.873.891.077.077 0 0 0-.041.107c.36.698.772 1.363 1.225 1.993a.076.076 0 0 0 .084.029c1.961-.607 3.95-1.522 6.002-3.029a.077.077 0 0 0 .031-.055c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.029zM8.02 15.331c-1.183 0-2.157-1.086-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.211 0 2.176 1.095 2.157 2.419 0 1.333-.955 2.419-2.157 2.419zm7.975 0c-1.183 0-2.157-1.086-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.211 0 2.176 1.095 2.157 2.419 0 1.333-.946 2.419-2.157 2.419z"/></svg></a>
+          <a href="#" class="footer-social-link" data-href="contact.html" data-same="1" aria-label="Contact" draggable="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg></a>
+          <a href="#" class="footer-social-link" data-href="https://github.com/liqoy" aria-label="GitHub" draggable="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+          <a href="#" class="footer-social-link" data-href="https://ko-fi.com/liqoy" aria-label="Ko-fi" draggable="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></a>
+        </nav>
+        <p class="footer-copy" id="footer-text">© 2026 Liqoy</p>
+      </div>
+    </footer>
+
+    <script>
+      const config = {
+        name: "Liqoy",
+        bioEn: "Content creator, developer and tech enthusiast. Find all my links and projects here.",
+        bioFr: "Créateur de contenu, développeur et passionné de tech. Retrouve ici tous mes réseaux et projets.",
+        latestVideoUrl: "https://www.youtube.com/@Liqoy",
+        discordUrl: "https://discord.gg/UqcWfDUxuD",
+        spotifyUrl: "https://open.spotify.com/user/liqoy",
+        supportUrl: "https://ko-fi.com/liqoy",
+        githubUrl: "https://github.com/liqoy",
+        email: "liqoymc@gmail.com",
+        noAccountEn: "No account",
+        noAccountFr: "Pas de compte",
+      };
+
+      const elName = document.getElementById("name");
+      const elBio = document.getElementById("bio");
+      const elLangEn = document.getElementById("lang-en");
+      const elLangFr = document.getElementById("lang-fr");
+      const elFooterText = document.getElementById("footer-text");
+
+      const i18n = {
+        en: {
+          title: "About Me",
+          bio: config.bioEn,
+          footer: "© 2026 Liqoy",
+          languageLabel: "Language",
+          linkLatestTag: "YouTube",
+          linkDiscordTag: "Community",
+          linkSpotifyTag: "Music",
+          linkEmailTag: "Contact",
+          linkSupportTag: "Support",
+          linkGithubTag: "Code",
+          linkTwitterTag: "Social",
+          linkInstagramTag: "Photos",
+          linkLatest: "Latest video",
+          linkDiscord: "Discord",
+          linkSpotify: "Spotify",
+          linkEmail: "Contact me",
+          linkSupport: "Ko-fi",
+          linkGithub: "GitHub",
+          linkTwitter: "X (Twitter)",
+          linkInstagram: "Instagram",
+          linkDiscordCta: "Join",
+          ctaOpen: "Open",
+          ctaVisit: "Visit",
+          ctaNoAccount: config.noAccountEn,
+          footerTagline: "Content creator, dev & tech",
+        },
+        fr: {
+          title: "À propos de moi",
+          bio: config.bioFr,
+          footer: "© 2026 Liqoy",
+          languageLabel: "Langue",
+          linkLatestTag: "YouTube",
+          linkDiscordTag: "Communauté",
+          linkSpotifyTag: "Musique",
+          linkEmailTag: "Contact",
+          linkSupportTag: "Soutien",
+          linkGithubTag: "Code",
+          linkTwitterTag: "Social",
+          linkInstagramTag: "Photos",
+          linkLatest: "Dernière vidéo",
+          linkDiscord: "Discord",
+          linkSpotify: "Spotify",
+          linkEmail: "Me contacter",
+          linkSupport: "Ko-fi",
+          linkGithub: "GitHub",
+          linkTwitter: "X (Twitter)",
+          linkInstagram: "Instagram",
+          linkDiscordCta: "Rejoindre",
+          ctaOpen: "Ouvrir",
+          ctaVisit: "Visiter",
+          ctaNoAccount: config.noAccountFr,
+          footerTagline: "Créateur de contenu, dev & tech",
+        },
+      };
+
+      function setActiveLang(lang) {
+        const dict = i18n[lang] || i18n.fr;
+        document.documentElement.lang = lang;
+        elName.textContent = dict.title;
+        elBio.textContent = dict.bio;
+        if (elFooterText) elFooterText.textContent = dict.footer;
+        document.querySelector(".lang-switch")?.setAttribute("aria-label", dict.languageLabel);
+        const set = (id, text) => { const el = document.getElementById(id); if (el) el.textContent = text; };
+        set("link-latest-tag", dict.linkLatestTag);
+        set("link-discord-tag", dict.linkDiscordTag);
+        set("link-spotify-tag", dict.linkSpotifyTag);
+        set("link-email-tag", dict.linkEmailTag);
+        set("link-support-tag", dict.linkSupportTag);
+        set("link-github-tag", dict.linkGithubTag);
+        set("link-twitter-tag", dict.linkTwitterTag);
+        set("link-instagram-tag", dict.linkInstagramTag);
+        set("link-latest-label", dict.linkLatest);
+        set("link-discord-label", dict.linkDiscord);
+        set("link-spotify-label", dict.linkSpotify);
+        set("link-email-label", dict.linkEmail);
+        set("link-support-label", dict.linkSupport);
+        set("link-github-label", dict.linkGithub);
+        set("link-twitter-label", dict.linkTwitter);
+        set("link-instagram-label", dict.linkInstagram);
+        set("link-discord-cta", dict.linkDiscordCta);
+        set("link-latest-cta-hover", dict.ctaOpen);
+        set("link-spotify-cta-hover", dict.ctaOpen);
+        set("link-email-cta-hover", dict.ctaVisit);
+        set("link-support-cta-hover", dict.ctaOpen);
+        set("link-github-cta-hover", dict.ctaOpen);
+        set("link-twitter-cta-hover", dict.ctaNoAccount);
+        set("link-instagram-cta-hover", dict.ctaNoAccount);
+        set("footer-tagline", dict.footerTagline);
+        elLangEn.classList.toggle("active", lang === "en");
+        elLangFr.classList.toggle("active", lang === "fr");
+        localStorage.setItem("lang", lang);
+      }
+
+      elLangEn.addEventListener("click", () => setActiveLang("en"));
+      elLangFr.addEventListener("click", () => setActiveLang("fr"));
+
+      const savedLang = localStorage.getItem("lang");
+      setActiveLang(savedLang === "en" ? "en" : "fr");
+
+      document.getElementById("link-latest").setAttribute("data-href", config.latestVideoUrl);
+      document.getElementById("link-discord").setAttribute("data-href", config.discordUrl);
+      document.getElementById("link-spotify").setAttribute("data-href", config.spotifyUrl);
+      document.getElementById("link-email").setAttribute("data-href", "contact.html");
+      document.getElementById("link-support").setAttribute("data-href", config.supportUrl);
+      document.getElementById("link-github").setAttribute("data-href", config.githubUrl);
+
+      document.body.addEventListener("click", function(e) {
+        var a = e.target.closest("a[data-href]");
+        if (!a || a.classList.contains("link-disabled")) return;
+        var url = a.getAttribute("data-href");
+        if (!url || url === "#") return;
+        e.preventDefault();
+        if (a.getAttribute("data-same") === "1") location.href = url;
+        else window.open(url, "_blank", "noopener,noreferrer");
+      });
+
+      document.addEventListener("contextmenu", function(e) { e.preventDefault(); });
+      document.addEventListener("copy", function(e) { e.preventDefault(); });
+      document.addEventListener("dragstart", function(e) {
+        if (e.target.tagName === "A" || e.target.tagName === "IMG" || e.target.closest("a")) e.preventDefault();
+      });
+
+      const elThemeToggle = document.getElementById("theme-toggle");
+      function applyTheme(theme) {
+        document.documentElement.setAttribute("data-theme", theme);
+        localStorage.setItem("theme", theme);
+      }
+
+      const savedTheme = localStorage.getItem("theme");
+      const prefersLight = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches;
+      applyTheme(savedTheme || (prefersLight ? "light" : "dark"));
+
+      elThemeToggle.addEventListener("click", () => {
+        const current = document.documentElement.getAttribute("data-theme") || "dark";
+        applyTheme(current === "light" ? "dark" : "light");
+      });
+
+      const header = document.querySelector(".site-header");
+      const headerScrollThreshold = 20;
+      function updateHeaderScroll() {
+        if (window.scrollY > headerScrollThreshold) {
+          header?.classList.add("header-scrolled");
+        } else {
+          header?.classList.remove("header-scrolled");
+        }
+      }
+      window.addEventListener("scroll", updateHeaderScroll, { passive: true });
+      updateHeaderScroll();
+    </script>
+  </body>
+</html>
